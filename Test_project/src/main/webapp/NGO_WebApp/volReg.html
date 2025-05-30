@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="assets/css/event.css">
+    
+     <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
+    
+    
+  </head>
+  <body>
+    <!-- Body of Form starts -->
+      <header class="continer-fluid ">
+    <div  class="header-top">
+        <div class="container">
+            <div class="row col-det">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <ul class="ulleft">
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            teju200@gmail.com
+                            <span>|</span></li>
+                        <li>
+                            <i class="fas fa-phone-volume"></i>
+                            +895107231123</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 folouws">
+                  
+                    <ul class="ulright">
+                       <li> <small>Folow Us </small>:</li>
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
+                    <button class="btn btn-sm btn-success"><a href="volReg.html">Join us</a></button>
+                    <button class="btn btn-sm btn-default" ><a href="pay.html">donate</a></button> <br><br>
+                    <button class="btn btn-sm btn-default" ><a href="http://localhost:8080/Test_project/JSP/volunteerdisplay.jsp">volunteers</a></button> 
+                    <button class="btn btn-sm btn-default" ><a href="http://localhost:8080/Test_project/JSP/donardisplay.jsp">donars</a></button> <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-jk" class="header-bottom">
+        <div class="container">
+            <div class="row nav-row">
+                <div class="col-lg-3 col-md-12 logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.jpg" alt="">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                    </a>
+
+                </div>
+                <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+
+                            <ul class="navbad">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about_us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="services.html">Events</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact_us.html">Contact US</a>
+                                </li>
+
+
+
+
+                            </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div> 
+</header>
+	  
+    
+    
+        
+  	<div class="container">
+      <form action="http://localhost:8080/Test_project/JSP/volunteerinsert.jsp" method="post" autocomplete="on">
+		  <h3 style="text-align: center;">VOLUNTEER REGISTRATION FORM</h3><br><br>
+        <!--First name-->
+    		<div class="box">
+          <label for="Name" class="fl fontLabel"> First Name: </label>
+    			<div class="new iconBox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+    			<div class="fr">
+    					<input type="text" name="name" placeholder="Name"
+              class="textBox" autofocus="on" required>
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--First name-->
+
+
+        <!--Second name-->
+    		<div class="box">
+          <label for="Mobile" class="fl fontLabel"> Mobile: </label>
+    			<div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="mobile"
+              placeholder="mobile" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--Second name-->
+
+
+    		<!---Phone No.------>
+    		<div class="box">
+          <label for="email" class="fl fontLabel"> email: </label>
+    			<div class="fl iconBox"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="email" maxlength="10" placeholder="email" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!---Phone No.---->
+
+
+    		<!---Email ID---->
+    		<div class="box">
+          <label for="Adress" class="fl fontLabel"> adress: </label>
+    			<div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="address" placeholder="address" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!--Email ID----->
+
+
+    		<!---Password------>
+    		<div class="box">
+          <label for="occupation" class="fl fontLabel"> occupation </label>
+    			<div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="text" required name="occupation" placeholder="occupation" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		
+
+
+    		<!---Submit Button------>
+    		<div class="box" style="box-align: center;">
+    				<input type="Submit" name="Submit" class="submit" value="SUBMIT">
+    		</div>
+    		<!---Submit Button----->
+      </form>
+  </div>
+  <!--Body of Form ends--->
+  </body>
+</html>
+
+</body>
+</html>
